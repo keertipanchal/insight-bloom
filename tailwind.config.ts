@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        handwritten: ['Caveat', 'cursive'],
+        serif: ['Cormorant Garamond', 'serif'],
+        body: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +51,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        correct: {
+          DEFAULT: "hsl(var(--correct))",
+          foreground: "hsl(var(--correct-foreground))",
+        },
+        wrong: {
+          DEFAULT: "hsl(var(--wrong))",
+          foreground: "hsl(var(--wrong-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
